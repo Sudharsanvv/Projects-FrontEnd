@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+}
+td{
+    border: 1px solid black;
+}
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tbody{
+    border: 1px solid black;
+}
+.dltbtn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}

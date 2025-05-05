@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">STUDENT FORM</h1>
+    <form class="f">
+        <table class="i">
+        <tr>
+            <td>Name : </td><td><input type="text" placeholder="Enter your Name" id="name"></td>
+        </tr>
+        <tr>
+            <td>Age : </td><td><input type="number" placeholder="Enter your Age" id="age"></td>
+        </tr>
+        <tr>
+            <td>Gender : </td>
+            <td>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Course : </td>
+            <td>
+                <select id="course">
+                    <option>Html</option>
+                    <option>Css</option>
+                    <option>JavaScript</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email : </td><td><input type="email" placeholder="Enter your Email" id="email"></td>
+        </tr>
+    </table>
+    <table class="i">
+        <tr>
+            <td>
+                <button id="save" style="background-color: lightgreen; width: 230px;">Save</button>
+            </td>
+        </tr>
+        
+    </table>
+</form>
+<p id="message" style="text-align: center; color: green; font-weight: bold;"></p>
+    <br>
+    <div class="tt">
+
+    <form>
+        <table  class="z">
+            <tr>
+                <td>Name</td><td>Age</td><td>Course</td><td>Gender</td><td>Email</td><td>Action</td>
+            </tr>
+            <tr>
+                <td>Amal</td><td>22</td><td>Python</td><td>Male</td><td>Amal@gmail.com</td><td><button class="dltbtn" onclick="dlt(event)">Delete</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
