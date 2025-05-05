@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookInfo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>BookInfo</h1>
+    </div>
+    <div class="container">
+        <div class="book-con">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem illum in natus distinctio vero blanditiis cumque suscipit alias. Fuga, fugit.</p>
+            <button onclick="dltbook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="popup">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="title-input">
+            <input type="text" placeholder="Book Author" id="author-input">
+            <textarea placeholder="Short Description" id="Des-input"></textarea>
+            <button id="addbook">Add</button>
+            <button id="canbook">Cancel</button>
+        </form>
+    </div>
+    <button class="btn" id="btn-pop">+</button>
+    <script src="script.js"></script>
+    
+</body>
+</html>
